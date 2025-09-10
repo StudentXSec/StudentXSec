@@ -1,3 +1,20 @@
+<!-- GitHub Profile Banner -->
+<p align="center">
+  <img src="https://github.com/StudentXSec/StudentXSec/blob/a026f968073c940ce80a9bca1596bf640de306f1/banner.jpg.jpg" alt="StudentXSec GitHub Banner" width="100%" />
+</p>
+
+<!-- Typing Animation Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=👋+Hey%2C+I’m+StudentXSec;⚡+InfraSec+%2B+Offensive+Labs;🎯+Future+Security+Architect" alt="Typing SVG" />
+</p>
+
+<!-- Visitor View Counter -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=your-username&style=flat-square&color=00f7ff" alt="Profile Views" />
+</p>
+
+---
+
 # 👋 Hey, I’m StudentX  
 
 🚀 Cybersecurity professional in the making, focused on **InfraSec + Offensive Security**.  
@@ -29,10 +46,11 @@ I document my projects in a consulting-style format to show both **process** and
 
 ---
 
-## 🌍 Connect with me
-- LinkedIn: [linkedin.com/in/studentxsec](https://linkedin.com/in/studentxsec)  
-- Twitter/X: [twitter.com/StudentXSec](https://twitter.com/StudentXSec)  
+## 🌍 Connect with Me
+- 🔗 LinkedIn: [linkedin.com/in/studentxsec](https://linkedin.com/in/studentxsec)  
+- ✖️ Twitter/X: [twitter.com/StudentXSec](https://twitter.com/StudentXSec)  
 
 ---
 
-⚡ *Learning in public. Building in public. Becoming dangerously necessary in cybersecurity.*
+> ⚡ *Learning in public. Building in public. Becoming dangerously necessary in cybersecurity.*
+
