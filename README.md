@@ -1,7 +1,3 @@
-<!-- GitHub Profile Banner -->
-<p align="center">
-  <img src="https://github.com/StudentXSec/StudentXSec/blob/a026f968087c940ce80a9bca1596bf640de306f1/banner.jpg.jpg" alt="StudentXSec GitHub Banner" width="100%">
-</p>
 
 🚀 Hands-on Cybersecurity Portfolio – QuickLabs and Consultant-Style Projects documenting my journey from Helpdesk to Security Architect.
 
