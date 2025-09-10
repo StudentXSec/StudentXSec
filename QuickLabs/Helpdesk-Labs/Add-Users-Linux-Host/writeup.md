@@ -21,29 +21,29 @@ Simulate a helpdesk ticket by:
 
 ### Step 1: User Creation
 Created the first user `bertram` with `adduser`.  
-![User Creation](./screenshots/adduser.png)  
+![User Creation](./screenshots/adduser.png)
 *Repeated for `erlich` using the same steps.*  
 
 ---
 
 ### Step 2: Enforce Password Reset
 Forced both accounts to expire their initial password at first login.  
-![Password Expire](./screenshots/passwd-expire.png)  
+![Password Expiration](./screenshots/passwd-expire.png) 
 
 Verification prompt when attempting login as `bertram`:  
-![Password Reset Prompt](./screenshots/passwd-expire-prompt.png)  
+![Password Prompt](./screenshots/passwd-expire-prompt.png)
 
 ---
 
 ### Step 3: Create and Secure Confidential Folder
 Created a folder `/Confidential` in the root directory, restricted access, and set correct group ownership.  
-![Confidential Folder Permissions](./screenshots/chmod-folder.png)  
+![Confidential Folder](./screenshots/chmod-folder.png)
 
 ---
 
 ### Step 4: Group Membership Verification
 Confirmed only `bertram` and `erlich` are in the `confidential` group with access to the folder.  
-![Group Membership](./screenshots/group-membership.png)  
+![Group Membership](./screenshots/group-membership.png)
 
 ---
 
