@@ -1,16 +1,38 @@
-## Hi there 👋
+# 👋 Hey, I’m StudentX  
 
-<!--
-**StudentXSec/StudentXSec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Cybersecurity professional in the making, focused on **InfraSec + Offensive Security**.  
+I’m building a hybrid path where I learn to both **defend infrastructure** and **think like an attacker**.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔐 Current Focus
+- Studying for **CompTIA Security+ (SY0-701)**  
+- Preparing for **AZ-900** (Azure Fundamentals)  
+- Building hands-on projects in **Active Directory, IAM (Okta/Entra ID), and Cloud Security**  
+- Running **offensive security labs** (XSS, SSRF, IDOR, API exploitation)  
+
+---
+
+## 🛠️ Labs & Projects
+I document my projects in a consulting-style format to show both **process** and **results**.  
+
+- 🔧 [Vulnerability Management Project](#) *(coming soon)*  
+- 🖥️ [Help Desk Linux Ticket Simulation](#) *(coming soon)*  
+- 🌐 [Web Security Labs (XSS, SSRF, IDOR)](#) *(coming soon)*  
+
+---
+
+## 🎯 Goals
+- **Short-Term:** Land a role in Helpdesk / SysAdmin / IAM Support  
+- **Mid-Term:** Grow into InfraSec and Cloud Security roles  
+- **Long-Term:** Operate as a **Dangerous Security Architect** with hybrid InfraSec + Offensive expertise  
+
+---
+
+## 🌍 Connect with me
+- LinkedIn: [linkedin.com/in/studentxsec](https://linkedin.com/in/studentxsec)  
+- Twitter/X: [twitter.com/StudentXSec](https://twitter.com/StudentXSec)  
+
+---
+
+⚡ *Learning in public. Building in public. Becoming dangerously necessary in cybersecurity.*
