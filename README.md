@@ -27,7 +27,6 @@ I’m building a hybrid path where I learn to both **defend infrastructure** and
   <!-- Earned badges -->
   <img src="https://img.shields.io/badge/Google-Cybersecurity%20Certificate-blue?logo=google" alt="Google Cybersecurity Certificate"/>
   <img src="https://img.shields.io/badge/Okta-IAM%20Badge-lightgrey?logo=okta" alt="Okta IAM Badge"/>
-  <img src="https://img.shields.io/badge/GitHub-Projects-black?logo=github" alt="GitHub Projects"/>
 </p>
 <p align="center">
   <!-- In-progress / training badges -->
