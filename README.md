@@ -29,6 +29,13 @@ I’m building a hybrid path where I learn to both **defend infrastructure** and
   <img src="https://img.shields.io/badge/Okta-IAM%20Badge-lightgrey?logo=okta" alt="Okta IAM Badge"/>
   <img src="https://img.shields.io/badge/GitHub-Projects-black?logo=github" alt="GitHub Projects"/>
 </p>
+<p align="center">
+  <!-- In-progress / training badges -->
+  <img src="https://img.shields.io/badge/CompTIA-Security%2B_(in_progress)-red?logo=comptia" alt="Security+ (in progress)"/>
+  <img src="https://img.shields.io/badge/Microsoft-AZ--900_(studying)-blue?logo=microsoftazure" alt="AZ-900 (studying)"/>
+  <img src="https://img.shields.io/badge/HackSmarter-Labs-orange?logo=hackthebox" alt="HackSmarter Labs"/>
+  <img src="https://img.shields.io/badge/Cyber_Range-Vulnerability_Management-green?logo=azuredevops" alt="Cyber Range Vulnerability Mgmt"/>
+</p>
 
 
 ---
