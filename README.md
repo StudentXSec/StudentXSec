@@ -19,8 +19,17 @@ I’m actively expanding this portfolio to strengthen my fundamentals and demons
 I’m building a hybrid path where I learn to both **defend infrastructure** and **think like an attacker**.  
 
 <p align="center">
+  <!-- Core identity badge -->
   <img src="https://img.shields.io/badge/StudentX--Cyber_Portfolio-informational?style=flat&logo=github" alt="StudentX – Cyber Portfolio"/>
 </p>
+
+<p align="center">
+  <!-- Earned badges -->
+  <img src="https://img.shields.io/badge/Google-Cybersecurity%20Certificate-blue?logo=google" alt="Google Cybersecurity Certificate"/>
+  <img src="https://img.shields.io/badge/Okta-IAM%20Badge-lightgrey?logo=okta" alt="Okta IAM Badge"/>
+  <img src="https://img.shields.io/badge/GitHub-Projects-black?logo=github" alt="GitHub Projects"/>
+</p>
+
 
 ---
 
