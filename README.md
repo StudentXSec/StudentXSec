@@ -19,7 +19,7 @@ I’m actively expanding this portfolio to strengthen my fundamentals and demons
 I’m building a hybrid path where I learn to both **defend infrastructure** and **think like an attacker**.  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=StudentXSec&show_icons=true&theme=tokyonight&hide_border=true&hide_title=true" alt="GitHub Stats" />
+  <img src="https://img.shields.io/badge/StudentX--Cyber_Portfolio-informational?style=flat&logo=github" alt="StudentX – Cyber Portfolio"/>
 </p>
 
 ---
