@@ -35,7 +35,7 @@ nmap -v scanme.nmap.org`
 3. Aggressive all-ports archival scan:
 `bash
 nmap --stats-every 10s -p- -A -T4 scanme.nmap.org -oA raw-data/scanme_nmap_A-full`
-(Raw outputs: raw-data/scanme_nmap_A-full.nmap, raw-data/scanme_nmap_A-full.xml, raw-data/scanme_nmap_A-full.gnmap)
+(Raw outputs: placeholder file)
 (Screenshot: ./screenshots/nmap-aggressive-output.png)
 
 4. Stealth SYN scan (saved output used in this writeup):
@@ -65,12 +65,54 @@ Nmap done: 1 IP address (1 host up) scanned in 6138.92 seconds
 
 Open ports discovered: 22 (SSH), 80 (HTTP), 9929 (nping-echo), 31337 (Elite).
 
-Scan runtime: 6138.92 seconds (≈102 minutes) for the full SYN scan.
+Host latency: 0.0013s (host is reachable).
 
-Host latency: 0.0013s, host is reachable.
+Scan duration: 6138.92 seconds (≈102 minutes) for the full SYN scan (see note below).
 
-Many TCP ports were filtered or closed (see raw output); only the above services responded.
+Notes: Most ports are filtered or closed (see raw output); the above four services responded.
 
-✍️ Key takeaways
+---
+
+## ✅ Analysis & Recommendations
+
+### Immediate triage
+
+SSH (22): identify server/version (from the .nmap/.xml output), check for outdated OpenSSH CVEs. Harden: disable root login, prefer key-based auth, limit ciphers, rate-limit connections.
+
+HTTP (80): run focused web checks (PortSwigger labs / Burp / Nikto) for common issues (XSS, directory indexing, misconfig). Enforce TLS redirection and security headers if applicable.
+
+Service checks (9929 / 31337): verify whether these are expected. If unexpected, escalate for incident analysis — unusual services can be indicators of demo/test services or deliberate honeypots.
+
+Vuln Mgmt steps: create a ticket per host/service, map versions → CVEs → priority (CVSS + business impact), plan remediation (patch/configure/monitor), then verify.
+
+---
+
+## 🧭 Mapping to frameworks (short)
+
+CompTIA Security+ (SY0-701): Reconnaissance and scanning map to Threats and Vulnerabilities and Tools & Technologies.
+
+OWASP: HTTP checks align with OWASP Top 10 (A1–A10) — run web checks after discovering port 80.
+
+MITRE ATT&CK: Discovery & Network Scanning map to techniques like T1046 – Network Service Discovery and T1595 – Active Scanning.
+
+---
+
+## 🔗 Files & Evidence (in this folder)
+
+- raw-data/scanme_nmap_syn.txt — stealth SYN scan (this writeup)
+
+- raw-data/scanme_nmap_A-full.nmap, .xml, .gnmap — aggressive scan outputs (if present)
+
+- Screenshots:
+
+  - screenshots/nmap-basic-scan.png
+
+  - screenshots/nmap-aggressive-output.png
+
+  - screenshots/nmap-stealth-final.png
+
+---
+
+## ✍️ Key takeaways
 
 This QuickLab documents ethical reconnaissance using nmap on an authorized test host. Saving raw outputs and screenshots produces reproducible evidence and demonstrates an end-to-end reconnaissance step in a Vulnerability Management workflow (Recon → Scan → Analyze → Remediate).
