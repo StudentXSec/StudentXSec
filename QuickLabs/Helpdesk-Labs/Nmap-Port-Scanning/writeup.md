@@ -35,7 +35,7 @@ nmap -v scanme.nmap.org`
 3. Aggressive all-ports archival scan:
 `bash
 nmap --stats-every 10s -p- -A -T4 scanme.nmap.org -oA raw-data/scanme_nmap_A-full`
-(Raw outputs: placeholder file)
+(Raw outputs: pending file)
 ![Nmap Aggressive Output](./screenshots/nmap-aggressive-output.png)
 
 4. Stealth SYN scan (saved output used in this writeup):
@@ -43,6 +43,7 @@ nmap --stats-every 10s -p- -A -T4 scanme.nmap.org -oA raw-data/scanme_nmap_A-ful
 sudo nmap -sS -p- -T4 scanme.nmap.org -oN raw-data/scanme_nmap_syn.txt`
 ![Nmap Stealth Scan](./screenshots/nmap-stealth-final.png)
 ![Nmap Stealth Scan Final](./screenshots/nmap-stealth-final2.png)
+![Nmap SYN scan ouput](./screenshots/nmap-stealth-final3.png)
 
 ---
 
@@ -102,7 +103,7 @@ MITRE ATT&CK: Discovery & Network Scanning map to techniques like T1046 – Netw
 
 - raw-data/scanme_nmap_syn.txt — stealth SYN scan (this writeup) 
 
-- raw-data/scanme_nmap_A-full.nmap, .xml, .gnmap — aggressive scan outputs (if present)
+- raw-data/scanme_nmap_A-full.nmap, .xml, .gnmap — aggressive scan outputs (pending)
 
 - Screenshots:
 
@@ -114,6 +115,8 @@ MITRE ATT&CK: Discovery & Network Scanning map to techniques like T1046 – Netw
 
   - screenshots/nmap-stealth-final2.png
 
+  - screenshots/nmap-stealth-final3.png (raw file pending)
+    
 ---
 
 ## ✍️ Key takeaways
