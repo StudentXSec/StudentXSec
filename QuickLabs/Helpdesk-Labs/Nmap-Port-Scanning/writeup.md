@@ -30,18 +30,19 @@ sudo apt install -y nmap`
 2. Quick/basic sanity scan:
 `bash
 nmap -v scanme.nmap.org`
-(Screenshot: ./screenshots/nmap-basic-scan.png)
+(./screenshots/nmap-basic-scan.png)
 
 3. Aggressive all-ports archival scan:
 `bash
 nmap --stats-every 10s -p- -A -T4 scanme.nmap.org -oA raw-data/scanme_nmap_A-full`
 (Raw outputs: placeholder file)
-(Screenshot: ./screenshots/nmap-aggressive-output.png)
+(./screenshots/nmap-aggressive-output.png)
 
 4. Stealth SYN scan (saved output used in this writeup):
 `bash
 sudo nmap -sS -p- -T4 scanme.nmap.org -oN raw-data/scanme_nmap_syn.txt`
-(Screenshot: ./screenshots/nmap-stealth-final.png)
+(./screenshots/nmap-stealth-final.png)
+(./screenshots/nmap-stealth-final2.png)
 
 ---
 
@@ -77,7 +78,7 @@ Notes: Most ports are filtered or closed (see raw output); the above four servic
 
 ### Immediate triage
 
-SSH (22): identify server/version (from the .nmap/.xml output), check for outdated OpenSSH CVEs. Harden: disable root login, prefer key-based auth, limit ciphers, rate-limit connections.
+SSH (22): identify server/version (from the .nmap/.xml raw output), check for outdated OpenSSH CVEs. Harden: disable root login, prefer key-based auth, limit ciphers, rate-limit connections.
 
 HTTP (80): run focused web checks (PortSwigger labs / Burp / Nikto) for common issues (XSS, directory indexing, misconfig). Enforce TLS redirection and security headers if applicable.
 
@@ -110,6 +111,8 @@ MITRE ATT&CK: Discovery & Network Scanning map to techniques like T1046 – Netw
   - screenshots/nmap-aggressive-output.png
 
   - screenshots/nmap-stealth-final.png
+
+  - screenshots/nmap-stealth-final2.png
 
 ---
 
