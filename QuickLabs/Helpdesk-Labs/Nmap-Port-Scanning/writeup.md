@@ -30,19 +30,19 @@ sudo apt install -y nmap`
 2. Quick/basic sanity scan:
 `bash
 nmap -v scanme.nmap.org`
-(./screenshots/nmap-basic-scan.png)
+![Nmap Basic Scan](./screenshots/nmap-basic-scan.png)
 
 3. Aggressive all-ports archival scan:
 `bash
 nmap --stats-every 10s -p- -A -T4 scanme.nmap.org -oA raw-data/scanme_nmap_A-full`
 (Raw outputs: placeholder file)
-(./screenshots/nmap-aggressive-output.png)
+![Nmap Aggressive Output](./screenshots/nmap-aggressive-output.png)
 
 4. Stealth SYN scan (saved output used in this writeup):
 `bash
 sudo nmap -sS -p- -T4 scanme.nmap.org -oN raw-data/scanme_nmap_syn.txt`
-(./screenshots/nmap-stealth-final.png)
-(./screenshots/nmap-stealth-final2.png)
+![Nmap Stealth Scan](./screenshots/nmap-stealth-final.png)
+![Nmap Stealth Scan Final](./screenshots/nmap-stealth-final2.png)
 
 ---
 
@@ -100,7 +100,7 @@ MITRE ATT&CK: Discovery & Network Scanning map to techniques like T1046 – Netw
 
 ## 🔗 Files & Evidence (in this folder)
 
-- raw-data/scanme_nmap_syn.txt — stealth SYN scan (this writeup)
+- raw-data/scanme_nmap_syn.txt — stealth SYN scan (this writeup) 
 
 - raw-data/scanme_nmap_A-full.nmap, .xml, .gnmap — aggressive scan outputs (if present)
 
