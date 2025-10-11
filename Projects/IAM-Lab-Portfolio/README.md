@@ -5,8 +5,14 @@ This portfolio showcases hands-on Microsoft Entra ID (Azure AD) and Identity & A
 ---
 
 ## 📘 Current Labs
-1. **Assign Licenses to Users** – Created and managed users, groups, and licenses in Entra ID and Microsoft 365 Admin Center. Demonstrated identity provisioning, group-based licensing, and account recovery.  
-2. **Secure Identities with Conditional Access** – Implemented and tested Conditional Access policies to enforce MFA and location-based sign-in restrictions.
+
+1. [Entra ID – Assign Licenses to Users](./01_EntraID_Assign_Licenses_to_Users/README.md)  
+   - Completed identity lifecycle and group-based license assignment workflow.  
+   - Demonstrated user provisioning, license governance, and lifecycle restoration.
+
+2. [Entra ID – Create, Configure, and Manage Groups](./02_EntraID_Create_Configure_Manage_Groups/README.md)  
+   - In progress: practicing group creation, configuration, and management in Microsoft Entra ID.  
+   - Focus on dynamic membership rules, group roles, and access review readiness.
 
 ---
 
