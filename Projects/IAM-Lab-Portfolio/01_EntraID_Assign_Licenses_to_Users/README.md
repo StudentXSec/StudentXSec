@@ -60,7 +60,11 @@ Perform identity lifecycle operations in Microsoft Entra ID:
    - **Password:** Temporary password generated automatically.
 3. Click **Create** and verify that the user appears in the “All Users” list.
 
-📸 *Screenshot:* `screenshots/user_created_list.png`
+**Before Creation:**  
+![User creation form in Entra ID](./screenshots/user_creation_form.png)
+
+**After Creation:**  
+![All Users list showing new account Chris Green](./screenshots/user_created_list.png)
 
 ---
 
@@ -74,8 +78,11 @@ Perform identity lifecycle operations in Microsoft Entra ID:
    - **Member:** Chris Green  
 3. Click **Create** and verify that the group appears in “All Groups.”
 
-📸 *Screenshot:* `screenshots/group_creation_form.png`  
-📸 *Screenshot:* `screenshots/group_membership_view.png`
+**Group Creation Form:**  
+![New group creation screen with Marketing group fields completed](./screenshots/group_creation_form.png)
+
+**Group Membership View:**  
+![Marketing group Members tab showing Chris Green](./screenshots/group_membership_view.png)
 
 ---
 
@@ -86,8 +93,11 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 4. Search for and select the **Marketing** group.  
 5. Confirm the assignment and verify the success notification.
 
-📸 *Screenshot:* `screenshots/license_assignment_group.png`  
-📸 *Screenshot:* `screenshots/license_success_message.png`
+**Before Assignment:**  
+![Groups tab before license assignment](./screenshots/license_assignment_group.png)
+
+**After Successful Assignment:**  
+![Confirmation banner showing license successfully assigned](./screenshots/license_success_message.png)
 
 ---
 
@@ -98,9 +108,14 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 4. Click **Restore User** to simulate account reactivation.
 5. Confirm that the user appears again in “All Users.”
 
-📸 *Screenshot:* `screenshots/deleted_user_list.png`  
-📸 *Screenshot:* `screenshots/user_restored.png`
-📸 *Screenshot:* `screenshots/user_license_persistence.png`
+**Deleted Users List:**  
+![Deleted users tab showing Chris Green](./screenshots/deleted_user_list.png)
+
+**Restored User:**  
+![All Users list showing Chris Green restored](./screenshots/user_restored.png)
+
+**Advanced License Check (Optional):**  
+![User license tab showing license persistence after restore](./screenshots/user_license_persistence.png)
 
 ---
 
@@ -124,12 +139,24 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 ---
 
 ## 🧩 Evidence Files
+
+All evidence for this lab is captured directly within the README as embedded screenshots.  
+Each screenshot provides visual verification of the actions taken and results observed.
+
 | Type | File | Description |
 |------|------|-------------|
-| Screenshot | `screenshots/user_created_list.png` | User creation evidence |
-| Screenshot | `screenshots/license_success_message.png` | License assignment success |
-| Artifact | `artifacts/user_export.csv` | User list export for audit log |
-| Artifact | `artifacts/group_export.csv` | Group membership record |
+| Screenshot | `user_creation_form.png` | User creation form before adding Chris Green |
+| Screenshot | `user_created_list.png` | “All Users” list showing new user added |
+| Screenshot | `group_creation_form.png` | Marketing security group creation page |
+| Screenshot | `group_membership_view.png` | Group members view showing Chris Green assigned |
+| Screenshot | `license_assignment_group.png` | Groups tab before license assignment |
+| Screenshot | `license_success_message.png` | Confirmation of successful license assignment |
+| Screenshot | `deleted_user_list.png` | Deleted Users tab showing deprovisioned account |
+| Screenshot | `user_restored.png` | Restored user listed under Active Users |
+| Screenshot (optional) | `user_license_persistence.png` | Proof of license retention after restore |
+| Screenshot (optional) | `entra_licenses_overview.png` | P1 + Business Basic license verification |
+*Note: No additional artifacts (CSV exports or reports) were generated for this lab.*
+
 
 ---
 
@@ -151,4 +178,6 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 ---
 
 ## 📚 Next Step
-Continue to **Lab 02 – Secure Identities with Conditional Access** to apply policy-driven access control.
+Continue to **[Lab 02 – Create, Configure, and Manage Groups](../02_EntraID_Create_Configure_Manage_Groups/README.md)**  
+to practice creating security and Microsoft 365 groups, defining dynamic membership rules,  
+and preparing for group-based access reviews and Conditional Access policies.
