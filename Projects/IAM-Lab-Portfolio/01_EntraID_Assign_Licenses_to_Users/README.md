@@ -100,6 +100,7 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 
 📸 *Screenshot:* `screenshots/deleted_user_list.png`  
 📸 *Screenshot:* `screenshots/user_restored.png`
+📸 *Screenshot:* `screenshots/user_license_persistence.png`
 
 ---
 
@@ -109,7 +110,8 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 | User created | Chris Green listed under “All Users” | ✅ |
 | Group created | Marketing group visible in “All Groups” | ✅ |
 | License assigned | Marketing group successfully licensed | ✅ |
-| User restored | Chris Green reappears post-deletion | ✅ |
+| User deleted | Chris Green account moved to deleted users | ✅ |
+| User restored | Chris Green account reinstated in Active Users | ✅ |
 
 ---
 
