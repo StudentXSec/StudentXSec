@@ -36,6 +36,8 @@ Perform identity lifecycle operations in Microsoft Entra ID:
 - **Role:** Global Administrator
 - **Tenant:** StudentXSecurity.onmicrosoft.com
 - **License Type:** Microsoft 365 Business Basic (Trial)
+- *Note: Group-based license assignment required activation of the Microsoft Entra ID Premium P1 trial (30-day).*
+
 
 ---
 
