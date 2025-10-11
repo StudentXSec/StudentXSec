@@ -1,11 +1,11 @@
 **Lab Title:** Microsoft Entra ID – Create, Configure, and Manage Groups  
 **Author:** Chris (Xavier) Charles — StudentXSec Labs  
-**Date Executed:** 2025-10-12
+**Date Executed:** 2025-10-12  
 **Lab Environment:** StudentXSecurity.onmicrosoft.com (Business Tenant)  
 **IAM Role Used:** Global Administrator (Admin@StudentXSecurity.onmicrosoft.com)  
-**Framework Alignment:** [Choose one or more – NIST 800-53, ISO 27001, CIS Controls, etc.]  
-**Tools & Platforms:** [List tools used – Entra ID, M365 Admin Center, PowerShell, etc.]  
-**Lab Type:** [IAM / Governance / Risk / Compliance / Automation]  
+**Framework Alignment:** NIST 800-53 AC-2 (Account Management), AC-3 (Access Enforcement)  
+**Tools & Platforms:** Microsoft Entra ID  
+**Lab Type:** IAM / Access Governance  
 **Version:** v1.0  
 ---
 
@@ -23,52 +23,51 @@
 ---
 
 ## 🎯 Objective
-This lab is about creating, configuring, and managing groups in Entra ID.
+Demonstrate how to create, configure, and manage Microsoft Entra ID groups, including security and Microsoft 365 groups.  
+This lab reinforces proper group design, membership management, and access governance for enterprise environments.
 
 ---
 
 ## 🧰 Tools & Environment
-- Microsoft Entra ID (Azure AD)  
-- Microsoft 365 Admin Center  
-- PowerShell (optional for automation)  
-- CSV Exports / Excel (optional for reporting)  
+- Microsoft Entra Admin Center (`entra.microsoft.com`)  
+- Microsoft 365 Admin Center (`admin.microsoft.com`)  
+- Tenant: `StudentXSecurity.onmicrosoft.com`  
+- Role: Global Administrator  
 
 ---
 
 ## 🧠 Key Skills Practiced
-- [Skill #1 – e.g., Identity lifecycle management]  
-- [Skill #2 – e.g., Role-based access control (RBAC)]  
-- [Skill #3 – e.g., Conditional Access or MFA policy design]  
-- [Skill #4 – e.g., Compliance reporting or audit documentation]  
+- Creating and configuring **Security** and **Microsoft 365** groups  
+- Setting **assigned vs. dynamic** membership rules  
+- Managing **group ownership** and **nested memberships**  
+- Applying the **principle of least privilege** to group roles  
+- Preparing groups for **access reviews** and **license-based provisioning**
 
 ---
 
 ## 🪜 Steps Performed
-### Step 1 – [Step name]
-- Description of the action you performed.  
-📸 *Screenshot:* `screenshots/step1_description.png`
-
-### Step 2 – [Step name]
-- Description of configuration or validation.  
-📸 *Screenshot:* `screenshots/step2_description.png`
-
-### Step 3 – [Step name]
-- Continue the pattern for each step in the lab.
+1. Create and configure Security and Microsoft 365 groups  
+2. Define dynamic membership rules based on user attributes  
+3. Add and remove members manually and via rules  
+4. Assign ownership roles for delegated group management  
+5. Review group settings and permissions for compliance
 
 ---
 
 ## 📑 Results Summary
 | Task | Action | Verified |
 |------|---------|-----------|
-| [Example] User created | Chris Green added to directory | ✅ |
-| [Example] License assigned | Marketing group assigned E3 license | ✅ |
+| Group creation | Security and M365 groups configured | ☐ |
+| Dynamic rules | Successfully applied and validated | ☐ |
+| Ownership | Delegated properly | ☐ |
+| Compliance check | Reviewed settings | ☐ |
 
 ---
 
 ## 💡 Key Takeaways
-- Summarize what you learned or confirmed.  
-- Mention any new commands or Entra workflows practiced.  
-- Reflect on how this ties back to enterprise IAM governance.  
+- Reinforced understanding of Entra ID group types and membership options  
+- Practiced dynamic rule syntax and verification  
+- Prepared foundation for future labs (Conditional Access and Access Reviews)
 
 ---
 
