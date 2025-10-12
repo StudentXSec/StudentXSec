@@ -106,3 +106,14 @@ All visual proof captured as embedded screenshots within this README.
 |----------|------|----------|
 | v1.0 | 2025-10-13 | Initial documentation for Northwest Sales group creation |
 
+---
+
+## 📚 Next Step
+Continue to **Lab 02 – Configure and Manage Device Registration**  
+to explore how Microsoft Entra ID supports device registration and management, including:
+
+- Understanding Microsoft Entra Registered, Joined, and Hybrid Joined devices  
+- Exploring BYOD (Bring Your Own Device) registration scenarios  
+- Preparing for Conditional Access and Intune integration
+
+📘 *This next section expands your IAM focus from user and group objects to device identities, connecting access governance with endpoint compliance.*
