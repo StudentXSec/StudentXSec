@@ -49,7 +49,7 @@ A structured, hands-on learning series focused on mastering Microsoft Entra ID a
 | # | Lab Title | Description | Status | Link |
 |---|------------|-------------|---------|------|
 | 01 | **Entra ID – Assign Licenses to Users** | Demonstrated user provisioning, group-based licensing, and account lifecycle restoration. | ✅ Complete | [View Lab →](./01_EntraID_Assign_Licenses_to_Users/README.md) |
-| 02 | **Entra ID – Create, Configure, and Manage Groups** | Practice creating, configuring, and managing Entra ID security & Microsoft 365 groups, including dynamic membership. | 🧩 In Progress | [View Lab →](./02_EntraID_Create_Configure_Manage_Groups/README.md) |
+| 02 | **Entra ID – Create, Configure, and Manage Groups** | Practice creating, configuring, and managing Entra ID security & Microsoft 365 groups, including dynamic membership and device registration. | 🧩 In Progress | [View Lab →](./02_EntraID_Create_Configure_Manage_Groups/README.md) |
 | 03 | **Entra ID – Manage User Roles** | Explore Entra ID roles, administrative units, and delegated administration to enforce least privilege. | ⏳ Planned | — |
 | 04 | **Entra ID – Secure Identities with Conditional Access** | Apply policy-driven access control using conditions such as user risk, device state, and location. | ⏳ Planned | — |
 | 05 | **Entra ID – Access Reviews & Audit Readiness** | Conduct periodic access certifications and generate audit reports for compliance. | ⏳ Planned | — |
@@ -77,7 +77,9 @@ A structured, hands-on learning series focused on mastering Microsoft Entra ID a
 ## 🧠 Skills Demonstrated
 - Identity Lifecycle Management (Joiner–Mover–Leaver)  
 - Group-based License Governance  
-- Role-Based Access Control (RBAC)  
+- Role-Based Access Control (RBAC)
+- Group-Based Access Management
+- Device Identity Governance (Entra Registered/Joined/Hybrid)  
 - Conditional Access and MFA Policy Design  
 - Access Review Preparation  
 - Audit-Ready Documentation and Evidence Management
