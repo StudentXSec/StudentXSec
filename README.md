@@ -58,4 +58,4 @@ I’m building a hybrid path where I learn to both **defend infrastructure** and
 |-------|--------------|------|
 | 🧩 **Identity & Access Management (IAM)** *(In Progress)* | Microsoft Entra ID labs demonstrating user, group, and device governance | [View IAM Portfolio →](./Projects/IAM-Lab-Portfolio) |
 | 🧱 **Vulnerability Management Project** *(Planned)* | Full Nessus vulnerability assessment and remediation plan | [View Project →](./Projects/Vuln-Management) |
-| 💻 **Helpdesk & SysAdmin Labs** *(Ongoing)* | Hands-on AD, PowerShell, and troubleshooting exercises | [View Labs →](./QuickLabs/Helpdesk) |
+| 💻 **Helpdesk & SysAdmin Labs** *(Ongoing)* | Hands-on AD, PowerShell, and troubleshooting exercises | [View Labs →](./QuickLabs/Helpdesk-Labs) |
