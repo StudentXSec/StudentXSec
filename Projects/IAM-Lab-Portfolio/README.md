@@ -29,9 +29,18 @@ A structured, hands-on learning series focused on mastering Microsoft Entra ID a
 ⚙️ **Automation Phase (PowerShell & Reporting)**
 - ⏳ **06 – Automation & Reporting with PowerShell**
 
-**Progress:** ✅ 1 Completed | 🧩 1 In Progress | ⏳ 4 Planned  
-██████░░░░░░░░░░ (33%)
+## 📊 Current Progress ![Progress](https://img.shields.io/badge/Progress-17%25-blue?style=for-the-badge)
 
+| Metric | Count | Status |
+|--------|--------|--------|
+| ✅ Completed | 1 | Foundations Phase complete |
+| 🧩 In Progress | 1 | Actively working on Group Management |
+| ⏳ Planned | 4 | Remaining IAM labs scheduled |
+| **Total Labs** | **6** | — |
+
+**Overall Progress:** (1 / 6) → **17% Complete**
+
+██████░░░░░░░░░░
 
 ---
 
