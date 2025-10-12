@@ -145,7 +145,7 @@ to explore how Microsoft Entra ID supports device registration and management, i
 ## 📑 Table of Contents
 - [🎯 Objective](#-objective)
 - [🧠 Key Concepts](#-key-concepts)
-- [🪜 Steps Performed](#-steps-performed)
+- [🧾 Steps Performed](#-steps-performed)
 - [📑 Results Summary](#-results-summary)
 - [💡 Key Takeaways](#-key-takeaways)
 - [🧩 Evidence Files](#-evidence-files)
@@ -175,8 +175,10 @@ This lab demonstrates the difference between **Entra Registered**, **Entra Joine
 ### Step 1 – Review Device Registration Settings
 1. Navigate to **Microsoft Entra Admin Center → Identity → Devices → All Devices**.  
 2. Observe any existing registered devices (if none appear, this is expected for new tenants).  
-3. Capture the overview pane showing the **Device Settings** options at the top.  
-📸 *Screenshot:* `screenshots/device_settings_overview.png`
+3. Capture the overview pane showing the **Device Settings** options at the top.
+
+**Screenshot – Device Settings Overview:**  
+![Microsoft Entra ID All Devices view showing Device Settings option](./screenshots/device_settings_overview.png)
 
 ---
 
@@ -185,8 +187,10 @@ This lab demonstrates the difference between **Entra Registered**, **Entra Joine
    - Users may join devices to Microsoft Entra ID (Yes/No)  
    - Additional local administrators on joined devices  
    - Require Multi-Factor Authentication to join devices  
-2. Document the default configuration and any adjustments you make.  
-📸 *Screenshot:* `screenshots/device_registration_settings.png`
+2. Document the default configuration and any adjustments you make.
+ 
+**Screenshot – Device Registration Settings:**  
+![Device Settings blade showing join and MFA options](./screenshots/device_registration_settings.png)
 
 ---
 
@@ -194,15 +198,19 @@ This lab demonstrates the difference between **Entra Registered**, **Entra Joine
 *(No actual device enrollment required for this lab)*  
 1. Open **Windows Settings → Accounts → Access Work or School → Connect**.  
 2. Show how a user would enter their organization account (e.g., ChrisG@StudentXSecurity.onmicrosoft.com).  
-3. Explain how this registers the device to Entra ID for SSO and Conditional Access.  
-📸 *Screenshot:* `screenshots/byod_registration_walkthrough.png`
+3. Explain how this registers the device to Entra ID for SSO and Conditional Access.
+ 
+**Screenshot – BYOD Registration Walkthrough:**  
+![Windows 10 Access Work or School connect prompt for BYOD registration](./screenshots/byod_registration_walkthrough.png)
 
 ---
 
 ### Step 4 – Review Microsoft Entra Joined and Hybrid Joined Concepts
 1. Document the differences between cloud-only join and hybrid join.  
-2. Reference Intune or Configuration Manager as tools for policy enforcement.  
-📸 *Screenshot:* `screenshots/device_join_models_summary.png`
+2. Reference Intune or Configuration Manager as tools for policy enforcement.
+
+**Screenshot – Device Join Models Summary:**  
+![Table comparing Entra Registered, Entra Joined, and Hybrid Joined device models](./screenshots/device_join_models_summary.png)
 
 ---
 
@@ -245,3 +253,17 @@ All evidence is captured as screenshots within this README.
 | Version | Date | Changes |
 |----------|------|----------|
 | v1.0 | 2025-10-14 | Initial documentation of device registration concepts and settings review |
+
+---
+
+## 📚 Next Step
+Continue to **Lab 02 – Manage Licenses**  
+to understand how Microsoft Entra ID supports license assignment across users and groups, and how **group-based licensing** simplifies enterprise-scale management.
+
+In the next section, you’ll learn how to:
+- Assign and manage product licenses through Entra ID and Microsoft 365 Admin Center  
+- Apply group-based licensing to automate license distribution and removal  
+- Understand license inheritance, service-plan customization, and compliance requirements  
+- Prepare for the follow-up exercise: **Change Group License Assignments**
+
+📘 *This section bridges the gap between device governance and service-level access management, completing the IAM Foundations → Access Governance phase.*
