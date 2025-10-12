@@ -56,6 +56,6 @@ I’m building a hybrid path where I learn to both **defend infrastructure** and
 
 | Area | Description | Link |
 |-------|--------------|------|
-| 🧩 **Identity & Access Management (IAM)** *(In Progress)* | Microsoft Entra ID labs demonstrating user, group, and device governance | [View IAM Portfolio →](./Projects/IAM-Lab-Portfolio) |
-| 🧱 **Vulnerability Management Project** *(Planned)* | Full Nessus vulnerability assessment and remediation plan | [View Project →](./Projects/Vuln-Management) |
-| 💻 **Helpdesk & SysAdmin Labs** *(Ongoing)* | Hands-on AD, PowerShell, and troubleshooting exercises | [View Labs →](./QuickLabs/Helpdesk-Labs) |
+| 🧩 **Identity & Access Management (IAM)**  *(In Progress)* <br> ![IAM](https://img.shields.io/badge/Focus-IAM%20%7C%20Entra%20ID-blue?style=flat-square&logo=microsoftazure) | Hands-on Microsoft Entra ID labs demonstrating user, group, license, and device governance. <br> | [View IAM Portfolio →](./Projects/IAM-Lab-Portfolio) |
+| 🧱 **Vulnerability Management Project**  *(Planned)* <br> ![VulnMgmt](https://img.shields.io/badge/Focus-Vulnerability%20Management-orange?style=flat-square&logo=nessus) | Full Nessus vulnerability assessment and remediation plan | [View Project →](./Projects/Vuln-Management) |
+| 💻 **Helpdesk & SysAdmin Labs** *(Ongoing)* <br> ![Helpdesk](https://img.shields.io/badge/Focus-Active%20Directory%20%7C%20SysAdmin-green?style=flat-square&logo=windows)| Hands-on AD, PowerShell, and troubleshooting exercises | [View Labs →](./QuickLabs/Helpdesk-Labs) |
