@@ -1,4 +1,3 @@
----
 **Lab Title:** Microsoft Entra ID – Create, Configure, and Manage Groups  
 **Author:** Chris (Xavier) Charles — StudentXSec Labs  
 **Date Executed:** 2025-10-13  
