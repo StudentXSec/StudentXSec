@@ -1,10 +1,10 @@
 # StudentX
 
-**Building toward GRC Engineering: compliance as code in AWS and Azure.**
+**Building toward GRC Engineering — cloud security, infrastructure as code, and compliance automation.
 
-I'm a Navy veteran. As a Personnel Specialist (E5), I ran access, personnel lifecycle, and compliance work at institutional scale, mostly by hand. Now I'm learning to build those same controls in code: infrastructure with Terraform, compliance rules with policy as code, and audit evidence that comes out of pipelines instead of screenshots.
+U.S. Navy veteran developing hands-on technical skills in AWS, Azure, Terraform, Policy as Code, and security control validation.
 
-This GitHub is where that work lives. It starts here, in public, as I build it.
+This GitHub documents my progression through practical engineering projects, including implementation, testing, evidence collection, and technical documentation.
 
 ---
 
