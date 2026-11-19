@@ -1,6 +1,6 @@
 # StudentX
 
-**Building toward GRC Engineering — cloud security, infrastructure as code, and compliance automation.
+**Building toward GRC Engineering — cloud security, infrastructure as code, and compliance automation.**
 
 U.S. Navy veteran developing hands-on technical skills in AWS, Azure, Terraform, Policy as Code, and security control validation.
 
@@ -31,7 +31,7 @@ Add a row only when the repo is public and has real work in it -->
 
 ### What I'm learning to work with
 
-Terraform · AWS · Azure · OPA/Rego · GitHub Actions · NIST 800-53 · FedRAMP · CMMC
+Terraform · AWS · Azure · OPA/Rego · GitHub Actions · NIST 800-53 · 
 
 ### Contact
 
